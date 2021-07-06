@@ -1,0 +1,193 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: #4a4a4a;
+}
+
+h2 {
+  color: #1a1919;
+}
+
+.header-section {
+  margin-top: 150px;
+}
+
+.wrapper-flex {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.item-wrap {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.item-wrap p {
+  width: 80%;
+  color: rgb(30, 30, 31);
+  line-height: 200%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.item-wrap img {
+  width: 83%;
+}
+
+.left-wrapper {
+  margin-top: 100px;
+}
+
+.custom-orange-color {
+  color: orange;
+}
+
+.strong-font {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.button-wrapper {
+  margin-top: 50px;
+  padding: 10px 20px;
+}
+
+.custom-button {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  border-radius: 40px;
+  padding: 20px 50px;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(173, 10, 10));
+  padding: 20px 40px;
+  box-shadow: 10px 10px 40px gray;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.about-section {
+  background-image: url(images/bg-frame.jpg);
+  background-repeat: no-repeat;
+}
+
+.right-item {
+  margin-top: 100px;
+}
+
+.recipes-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+/*----------Start Food section-----------*/
+.item-card {
+  width: 32%;
+  margin: 20px;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+}
+
+.food-section {
+  width: 90%;
+  margin: auto;
+}
+
+.food-title p {
+  width: 50%;
+  margin: auto;
+  line-height: 200%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.food-body {
+  box-shadow: 10px 10px 40px rgb(172, 172, 172);
+  padding: 5%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.food-body h2 {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.food-body p {
+  width: 100%;
+  color: rgb(30, 30, 31);
+  line-height: 200%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.food-section h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.food-section p {
+  text-align: center;
+}
+/*----------End Food section-----------*/
+
+/*----------Start review section-----------*/
+.review-section {
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 10px 10px 40px rgb(194, 194, 193);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.review-item {
+  width: 33%;
+  text-align: center;
+}
+
+.review-item h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+/*----------End review section-----------*/
+
+/*----------Start Footer section-----------*/
+.footer-section {
+  background-color: #08062b;
+  padding: 10px;
+  margin-top: 60px;
+  height: 200px;
+}
+
+.footer-section h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-section p {
+  text-align: center;
+  color: white;
+  line-height: 200%;
+  font-family: "Montserrat", sans-serif;
+}
+/*----------End Footer section-----------*/
